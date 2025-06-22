@@ -25,7 +25,7 @@ public class FlamingNinjaStar {
 			rob.turn(45);
 		// MOVE Move the robot 64 pixels
 			rob.move(64);
-			rob.setPenColor(252, 244, 3);
+			rob.setPenColor(252, 245, 3);
 		// TURN LEFT Turn the robot 40 degrees to the LEFT. (Negative numbers will turn the robot counter-clockwise.)
 			rob.turn(-40);
 		// DRAW FLAME Move the robot the distance in the variable flameSize
