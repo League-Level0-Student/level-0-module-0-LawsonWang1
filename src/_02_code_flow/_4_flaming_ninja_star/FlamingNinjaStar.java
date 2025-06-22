@@ -20,7 +20,7 @@ public class FlamingNinjaStar {
 		// Set its start value to zero.
 		int count = 0;
 		// LOOP. Start a while loop to repeat all of the code below ONE time (we will change this later)
-		while (count < 25) {
+		while (count < 25)  {
 		// TURN RIGHT Turn the robot 1/8 of a circle (hint: 360 degrees will turn a full circle)
 			rob.turn(45);
 		// MOVE Move the robot 64 pixels
