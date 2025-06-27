@@ -19,10 +19,10 @@ public class PentagonCrazy {
 		rob.setSpeed(100);
 		//  COLOR. Set the pen to a color that you like for the shape
 		rob.setPenColor(40, 172, 0);
-		int sides = 5;
+		int sides = 6;
 		//  TURN ANGLE. Make another int variable for the angle the robot must turn. 
 		//  			Hint: Divide 360 by the number of sides the shape has to get the angle.
-		int angle = 72;
+		int angle = 360/sides;
 		//  COUNT. Make another int variable to count how many times the loop has repeated
 		//         Set its start value to zero.
 		int count = 0;
